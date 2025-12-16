@@ -1,0 +1,55 @@
+@font-face {
+    font-family: DinCondensed;
+    src: url(../assets/font.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "DinCondensed", sans-serif;
+    color: #43403B;
+}
+
+li,
+a,
+button {
+    font-size: 32px;
+    text-decoration: none;
+}
+
+#navbar {
+    position: sticky;
+    top: 55px;
+    z-index: 100000;
+}
+
+.navbar {
+    background: #F3F1EB;
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 120px;
+    align-items: center;
+    border-radius: 8px;
+    margin: 55px 295px;
+}
+
+.nav-links li {
+    display: inline-block;
+    margin: 0px 80px;
+    align-items: center;
+}
+
+.nav-links li a:hover {
+    cursor: pointer;
+}
+
+.nav-links li.active {
+    background-color: #FABD3E;
+    margin: 0px;
+    padding: 15px 70px;
+    border-radius: 16px;
+}
