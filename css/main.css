@@ -9,9 +9,12 @@
     font-size: 35px;
 }
 
+body {
+    padding-top: 50px;
+}
+
 .navbar {
     position: sticky;
-    top: 605px;
     overflow: hidden;
     width: fit-content;
     background-color: #F3F1EB;
@@ -20,6 +23,7 @@
     border-radius: 8px;
     margin: auto;
     margin-top: 45px;
+    margin-bottom: 100px;
 }
 
 .navbar a {
@@ -29,6 +33,7 @@
     padding: 10px 50px;
     float: left;
     font-size: 30px;
+
 }
 
 .navbar a.active {
@@ -46,4 +51,26 @@
 
 .navbar a.last {
     margin-right: 115px;
+}
+
+.intro-container {
+    border: 4px #F3F1EB solid;
+    width: fit-content;
+    align-items: center;
+    padding: 0px 100px 50px;
+    margin: auto;
+}
+
+.intro-title {
+    font-size: 60px;
+    color: #231E1C;
+    margin-bottom: 0px;
+    text-align: center;
+}
+
+.intro-text {
+    font-size: 35px;
+    color: #AEA6A4;
+    text-align: center;
+    margin-top: 0;
 }
