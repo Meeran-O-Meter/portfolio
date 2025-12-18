@@ -10,11 +10,12 @@
 }
 
 body {
-    padding-top: 50px;
+    padding-top: 45px;
 }
 
 .navbar {
-    position: sticky;
+    position: fixed;
+    transform: translate(50%, 0%);
     overflow: hidden;
     width: fit-content;
     background-color: #F3F1EB;
@@ -22,8 +23,8 @@ body {
     align-content: center;
     border-radius: 8px;
     margin: auto;
-    margin-top: 45px;
     margin-bottom: 100px;
+    z-index: 10000;
 }
 
 .navbar a {
@@ -54,11 +55,13 @@ body {
 }
 
 .intro-container {
+    position: relative;
+    margin-top: 200px;
     border: 4px #F3F1EB solid;
     width: fit-content;
     align-items: center;
     padding: 0px 100px 50px;
-    margin: auto;
+    justify-self: center;
 }
 
 .intro-title {
@@ -73,4 +76,26 @@ body {
     color: #AEA6A4;
     text-align: center;
     margin-top: 0;
+}
+
+.interests-image-container {
+    display: flex;
+    align-items: center;
+    gap: 150px;
+    margin-left: 225px;
+    margin-top: 60px;
+    margin-bottom: 150px;
+
+}
+
+.interests-title {
+    margin-left: 20px;
+    font-size: 40px;
+    margin-bottom: 0;
+    padding-bottom: 20px;
+}
+
+.interests-image-container li {
+    font-size: 35px;
+    margin-bottom: 30px;
 }
