@@ -1,8 +1,8 @@
 <svg width="332" height="424" viewBox="0 0 332 424" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <rect x="32.4807" width="300" height="400" transform="rotate(4.65765 32.4807 0)" fill="#F3F1EB" fill-opacity="0.7"/>
 <rect x="41.6357" y="10.7788" width="280" height="380" transform="rotate(4.65765 41.6357 10.7788)" fill="#EFEDE6"/>
-<rect x="50.5877" y="20.9409" width="249.314" height="352.883" transform="rotate(4.45065 50.5877 20.9409)" fill="url(#pattern0_180_20707)"/>
-<rect x="50.5877" y="20.9409" width="249.314" height="352.883" transform="rotate(4.45065 50.5877 20.9409)" fill="url(#pattern1_180_20707)"/>
+<rect x="54.4142" y="25.0002" width="253.161" height="352.883" transform="rotate(4.66 54.4142 25.0002)" fill="url(#pattern0_180_20707)"/>
+<rect x="54.4142" y="25.0002" width="253.161" height="352.883" transform="rotate(4.66 54.4142 25.0002)" fill="url(#pattern1_180_20707)"/>
 <defs>
 <pattern id="pattern0_180_20707" patternContentUnits="objectBoundingBox" width="1" height="1">
 <use xlink:href="#image0_180_20707" transform="matrix(0.000707931 -3.05894e-06 4.32967e-06 0.000500157 -0.00947782 0.00186017)"/>

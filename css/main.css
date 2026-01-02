@@ -107,8 +107,8 @@ body {
     display: flex;
     align-items: center;
     gap: 150px;
-    margin-left: 240px;
-    margin-bottom: 150px;
+    margin-left: 350px;
+    margin-bottom: 250px;
 }
 
 .home-and-school-title {
@@ -124,4 +124,100 @@ body {
     font-size: 35px;
     max-width: 580px;
     width: 100%;
+}
+
+.recent-project-title {
+    font-size: 55px;
+    color: #000000;
+    text-align: center;
+}
+
+.recent-projects-container {
+    display: flex;
+    align-items: center;
+    gap: 70px;
+    text-align: center;
+    justify-content: space-between;
+    margin: 0px 200px;
+}
+
+.recent-projects-container p {
+    max-width: 480px;
+    font-size: 30px;
+    color: #AEA6A4;
+    margin-top: 0;
+    margin-bottom: 40px;
+}
+
+.project-title {
+    color: #231E1C;
+    font-size: 40px;
+    margin-top: 35px;
+    margin-bottom: 20px;
+}
+
+.learn-more {
+    background-color: #FABD3A;
+    color: #231E1C;
+    padding: 18px 120px;
+    border-radius: 8px;
+    border: none;
+    align-items: center;
+}
+
+.learn-more a {
+    text-decoration: none;
+    text-align: center;
+}
+
+.service-section-title {
+    font-size: 55px;
+    color: #000000;
+    text-align: center;
+    margin-top: 200px;
+    margin-bottom: 0;
+}
+
+.service-section-description {
+    font-size: 40px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.services-container {
+    display: flex;
+    align-items: center;
+    gap: 70px;
+    text-align: center;
+    justify-content: space-between;
+    margin: 0px 200px;
+}
+
+.services-detail {
+    max-width: 480px;
+    font-size: 30px;
+    color: #AEA6A4;
+    margin-top: 0;
+    margin-bottom: 40px;
+}
+
+.service-title {
+    color: #231E1C;
+    font-size: 40px;
+    margin-top: 35px;
+    margin-bottom: 20px;
+}
+
+.contact-me {
+    background-color: #FABD3A;
+    color: #231E1C;
+    padding: 18px 120px;
+    border-radius: 8px;
+    border: none;
+    align-items: center;
+}
+
+.contact-me a {
+    text-decoration: none;
+    text-align: center;
 }
