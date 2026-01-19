@@ -7,126 +7,146 @@
     <title>Meeran's Portfolio</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel='stylesheet' type='text/css' media='screen' href='./css/main.css'>
+    <script src="./script.js" defer></script>
 </head>
 
-<body id="home">
+<body>
+
     <div class="navbar">
-        <a href="#home" class="active first">Home</a>
-        <a href="#projects">My Projects</a>
-        <a href="#services">Services</a>
-        <a href=" #contact" class="last">Contact</a>
+        <a href="#home" class="nav-link home">Home</a>
+        <a href="#projects" class="nav-link">My Projects</a>
+        <a href="#services" class="nav-link">Services</a>
+        <a href="#contact" class="nav-link last">Contact</a>
     </div>
 
-    <div class="intro-container">
-        <p class="intro-title">Hi, I'm Meeran</p>
-        <p class="intro-text">Student by day, aspiring developer and creator at night.</p>
-    </div>
 
-    <section>
-        <div class=" interests-image-container">
+    <section id="home">
+        <div class="intro-container">
+            <p class="intro-title">Hi, I'm Meeran</p>
+            <p class="intro-text">Student by day, aspiring developer and creator at night.</p>
+        </div>
+
+        <div class="interests-image-container">
             <img class="interests-image" src="./assets/home/interests.svg">
             <div class="interests-container">
-                <p class="interests-title">Here's some stuffs that <span
-                        style="color: #FABD3E; font-size: 40px;">interests</span> me </p>
-                <ul class="interests">
-                    <li>I'm really into anything that's related to <span style="color: #FABD3E;">tech, software or
-                            fun</span>.</li>
+                <p class="interests-title">
+                    Here's some stuffs that
+                    <span style="color: #FABD3E; font-size: 40px;">interests</span> me
+                </p>
 
-                    <li>I play <span style="color: #FABD3E;">chess</span> in my spare time and wouldn't say no to a
-                        <span style="color: #FABD3E;">game of
-                            cards</span> neither
+                <ul class="interests">
+                    <li>I'm really into anything that's related to
+                        <span style="color: #FABD3E;">tech, software or fun</span>.
                     </li>
 
-                    <li style=" max-width: 800px; width: 100%;">I also do some level of crafting like
-                        <span style="color: #FABD3E;"> clay art,
-                            crochet and
-                            drawing</span>.
+                    <li>I play <span style="color: #FABD3E;">chess</span> in my spare time and wouldn't say no to a
+                        <span style="color: #FABD3E;">game of cards</span>
+                        neither
+                    </li>
+
+                    <li style="max-width: 800px; width: 100%;">
+                        I also do some level of crafting like
+                        <span style="color: #FABD3E;">clay art, crochet and drawing</span>.
                     </li>
                 </ul>
             </div>
         </div>
     </section>
 
-    <section id="#school">
+    <section id="school">
         <div class="home-and-school-image-container">
             <div class="home-and-school-container">
                 <p class="home-and-school-title">School & Home</p>
                 <ul class="home-and-school">
-                    <li>I'm inhabitant to one of the best tropical islands in the Indian Ocean, <span
-                            style="color: #FABD3E;">Mauritius</span>.
+                    <li>
+                        I'm inhabitant to one of the best tropical islands in the Indian Ocean,
+                        <span style="color: #FABD3E;">Mauritius</span>.
                     </li>
 
-                    <li>A proud student of <span style="color: #FABD3E;">Doha Academy</span>, found in the center and
-                        heart of Mauritius.</li>
+                    <li>
+                        A proud student of <span style="color: #FABD3E;">Doha Academy</span>,
+                        found in the center and heart of Mauritius.
+                    </li>
                 </ul>
             </div>
             <img src="./assets/home/school.svg">
         </div>
     </section>
 
+
     <section id="projects">
         <p class="recent-project-title">Recent Projects</p>
+
         <div class="recent-projects-container">
             <div class="trojan-academy">
                 <img src="./assets/projects/trojan.svg">
                 <h3 class="project-title">Trojan Academy</h3>
-                <p class="trojan-description">A free student app for past papers from your local schools and your exact
-                    syllabus.</p>
+                <p class="trojan-description">
+                    A free student app for past papers from your local schools and your exact syllabus.
+                </p>
                 <button class="learn-more"><a href="#home">Learn more</a></button>
             </div>
 
             <div class="grocerly">
                 <img src="./assets/projects/grocerly.svg">
                 <h3 class="project-title">Grocerly</h3>
-                <p class="grocerly-description">An app designed for your grocery shopping, with some special and unique
-                    features.</p>
+                <p class="grocerly-description">
+                    An app designed for your grocery shopping, with some special and unique features.
+                </p>
                 <button class="learn-more"><a href="#">Learn more</a></button>
             </div>
 
             <div class="sun-pray">
                 <img src="./assets/projects/sunpray.svg">
                 <h3 class="project-title">Sun Pray</h3>
-                <p class="sunpray-description">A free website to fetch your prayer times in your area and chosen
-                    calculation
-                    method. </p>
+                <p class="sunpray-description">
+                    A free website to fetch your prayer times in your area and chosen calculation method.
+                </p>
                 <button class="learn-more"><a href="#">Learn more</a></button>
             </div>
         </div>
     </section>
 
+
     <section id="services">
         <p class="service-section-title">Services</p>
-        <p class="service-section-description">I do provide a variety of services, but here are my <span
-                style="color: #FABD3E; font-size: 40px;">top</span> ones:</p>
+        <p class="service-section-description">
+            I do provide a variety of services, but here are my
+            <span style="color: #FABD3E; font-size: 40px;">top</span> ones:
+        </p>
 
         <div class="services-container">
             <div class="moderating-container">
                 <img src="./assets/services/Moderating.svg">
                 <p class="service-title">Moderating</p>
-                <p class="services-detail">I can help with moderating for your discord, reddit or youtube space so that
-                    your community's respectful and conflict-free.</p>
+                <p class="services-detail">
+                    I can help with moderating for your discord, reddit or youtube space so that
+                    your community's respectful and conflict-free.
+                </p>
                 <button class="contact-me"><a href="#">Contact me</a></button>
             </div>
 
             <div class="web-dev-container">
-                <img src="assets/services/webdev.svg">
+                <img src="./assets/services/webdev.svg">
                 <p class="service-title">Web Development</p>
-                <p class="services-detail">I'm open to get your business or service's online presence onto the internet
-                    and help your customers with a clean and fast website.</p>
-                <button class="contact-me"><a>Contact me</a></button>
+                <p class="services-detail">
+                    I'm open to get your business or service's online presence onto the internet
+                    and help your customers with a clean and fast website.
+                </p>
+                <button class="contact-me"><a href="#">Contact me</a></button>
             </div>
 
             <div class="research-container">
                 <img src="./assets/services/research.svg">
                 <p class="service-title">Research</p>
-                <p class="services-detail">Writing, researching, editing: you name it. I can help with all of these with
-                    great precision. Don't worry, I'll attach all of my sources so you know this is an AI-free zone.</p>
-                <button class="contact-me"><a>Contact me</a></button>
+                <p class="services-detail">
+                    Writing, researching, editing: you name it. I can help with all of these with
+                    great precision.
+                </p>
+                <button class="contact-me"><a href="#">Contact me</a></button>
             </div>
         </div>
     </section>
 
-
 </body>
-
 </html>
