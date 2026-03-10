@@ -59,15 +59,33 @@ body{
 
 
 .intro-container{
-    border: #43403B 2px solid;
-    display: flex;
+    border: #E3E3E3 3px solid;
+    border-radius: 8px;
+    display: block;
     justify-content: center;
+    margin-top: 6rem;
+    margin-bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 50%;
 }
 
-.intro-container{
-    margin: 2rem;
-    text-align: center;
-    display: block;
+.intro-title{
+    margin-top: 1rem;
+    margin-bottom: 0;
+    padding: 0;
+    font-size: 1.7rem;
+    color: #231E1C;
+    
+}
+
+.intro-text{
+    color: #C2BCBB;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 2rem;
+    font-size: 0.8rem;
 }
 
 
@@ -76,3 +94,4 @@ body{
         display: none;
     }
 }
+
