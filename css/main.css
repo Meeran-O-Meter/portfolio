@@ -121,7 +121,7 @@ body{
     justify-content: center;
     flex-direction: row;
     padding-left: 1.7rem;
-    margin-top: 4rem;
+    margin-top: 1.5rem;
 }
 
 .home-and-school-container .home-and-school-title{
@@ -154,6 +154,68 @@ body{
             font-size: 0.8rem;
         }
 }
+
+span{
+    font-size: 0.8rem; 
+    color: #FABD3E;
+}
+
+/* Project Section */
+
+.recent-project-title{
+    color: black;
+    font-size: 1.5rem;
+    text-align: center;
+    margin-top: 3rem;
+}
+
+.recent-projects-container{
+    display: flex;
+    gap: 5%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.project-image{
+    width: 10rem;
+}
+
+.project-title{
+    margin-top: 0.3rem;
+    color: #000000;
+    font-size: 1.3rem;
+    font-style: strong;
+    margin-bottom: 0;
+}
+
+.project-description{
+    color: #AEA6A4;
+    margin-top: 0.2rem;
+    font-size: 0.7rem;
+    text-overflow: ellipsis;
+}
+
+.learn-more{
+    background-color: #FABD3E;
+    font-size: 1rem;
+    border: none;
+    border-radius: 8px;
+
+    a{
+        color: #231E1C;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    }
+}
+
+
+
+
 @media screen and (max-width: 1000px) {
     #navbar{
         display: none;
@@ -170,7 +232,3 @@ body{
     }
 }
 
-span{
-    font-size: 0.8rem; 
-    color: #FABD3E;
-}
