@@ -60,7 +60,8 @@ body{
     margin-left: auto;
     margin-right: auto;
     text-align: center;
-    width: 40%;
+    width: fit-content;
+    padding: 0 2rem;
 }
 
 .intro-title{
@@ -83,13 +84,12 @@ body{
 .interests-image-container{
     display: flex;
     flex-direction: row;
-    margin-left: 3rem;
     margin-top: 1rem;
 }
 
 .interests-image{
-    width: 10rem;
-    margin-left: 10vw;
+    width: 7rem;
+    padding-left: 10vw;
 }
 .interests-container .interest-title{
     display: flex;
@@ -98,9 +98,9 @@ body{
 }
 
 .interests-title{
-    font-size: 1.2rem;
+    font-size: 1rem;
     margin-top: 2rem;
-    margin-bottom: 2rem;
+    margin-bottom: 0.2em;
     margin-left: 1.7rem;
 }
 
@@ -108,15 +108,52 @@ body{
         text-align: left;
         display: block;
         padding: 0;
-        font-size: 0.9rem;
         margin-left: 2.6rem;
 
         li{
-            margin-bottom: 0.8rem;
+            margin-bottom: 0.4rem;
+            font-size: 0.8rem;
         }
 }
 
+.home-and-school-image-container{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    padding-left: 1.7rem;
+    margin-top: 4rem;
+}
 
+.home-and-school-container .home-and-school-title{
+    display: flex;
+    flex-direction: row;
+    gap: 0.8rem;
+}
+
+.home-and-school-image{
+    width: 7rem;
+    padding-right: 10vw;
+    padding-left: 5vw;
+}
+
+.home-and-school-title{
+    font-size: 1rem;
+    margin-top: 2rem;
+    margin-bottom: 0.2em;
+    margin-left: 1.7rem;
+}
+
+.home-and-school{
+        text-align: left;
+        display: block;
+        padding: 0;
+        margin-left: 2.6rem;
+
+        li{
+            margin-bottom: 0.4rem;
+            font-size: 0.8rem;
+        }
+}
 @media screen and (max-width: 1000px) {
     #navbar{
         display: none;
@@ -133,3 +170,7 @@ body{
     }
 }
 
+span{
+    font-size: 0.8rem; 
+    color: #FABD3E;
+}
