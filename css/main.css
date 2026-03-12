@@ -180,7 +180,7 @@ span{
 }
 
 .project-image{
-    width: 10rem;
+    width: 7rem;
 }
 
 .project-title{
@@ -200,7 +200,6 @@ span{
 
 .learn-more{
     background-color: #FABD3E;
-    font-size: 1rem;
     border: none;
     border-radius: 8px;
 
@@ -209,12 +208,69 @@ span{
         display: flex;
         align-items: center;
         justify-content: center;
+        font-size: 0.8rem;
 
     }
 }
 
+.service-section-title{
+    color: black;
+    font-size: 1.3rem;
+    text-align: center;
+    margin-top: 5rem;
+    margin-bottom: 0.3rem;
+}
 
+.service-section-description{
+    font-size: 0.8rem;
+    margin: 0;
+    text-align: center;
+    margin-bottom: 1rem;
+}
 
+.services-container{
+    display: flex;
+    gap: 5%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    align-items: stretch;
+}
+
+.service-image{
+    width: 7rem;
+}
+.service-title{
+    margin-top: 0.3rem;
+    color: #000000;
+    font-size: 1.3rem;
+    font-style: strong;
+    margin-bottom: 0;
+}
+
+.services-detail{
+    color: #AEA6A4;
+    margin-top: 0.2rem;
+    font-size: 0.7rem;
+    text-overflow: ellipsis;
+}
+
+.contact-me{
+    background-color: #FABD3E;
+    border: none;
+    border-radius: 8px;
+
+    a{
+        color: #231E1C;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 0.8rem;
+
+    }
+}
 
 @media screen and (max-width: 1000px) {
     #navbar{
