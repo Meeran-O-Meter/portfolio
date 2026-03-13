@@ -288,20 +288,10 @@ span{
     }
 }
 
-
-.contact-container{
-    margin-top: 10rem;
-    margin-left: 4rem;
-
-}
-
 .contact-title{
-
-    margin-top: 10rem;
     margin-bottom: 0rem;
-    font-size: 1.2rem;
+    font-size: 1.6rem;
     color: #000000;
-    width: 50%;
 }
 
 .contact-description{
@@ -374,4 +364,33 @@ label{
     display: block;
     margin: 1rem auto 0 auto;
     
+}
+
+.section-contact{
+    display: flex;
+    margin-top: 3rem;
+    margin-left: 4rem;
+    justify-content: flex-end;
+}
+
+.social-buttons{
+    display: flex;
+    gap: 1.3rem;
+}
+
+.socials{
+    margin: 0;
+    padding: 0;
+}
+
+.social-title{
+    font-size: 1.6rem;
+    color: #000000;
+    margin: 0
+}
+
+.socials-container{
+    align-content: center;
+    margin-right: 2rem;
+    margin-left: 2rem;
 }
