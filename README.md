@@ -11,9 +11,13 @@ Helpful Threads: https://www.reddit.com/r/AskProgramming/comments/1rp84ez/portfo
 
 
 🖌️Pallette: I tried incorporating colors that represented me best and designing the site as close as it felt "inside my mind"
+
 💻Code: Being my first completely functional and no-AI code website, this is quite a proud work of mine
+
 📓To Do's: I'm thinking of doing a more mobile friendly version soon, along with updating my project list as I go
 
+⏰Total Time spent: 20 hours
+  
 
 SUMMARY
 This was really fun! Especially because of Hack Club's fun system, I finally got this 3 month old project done :)
