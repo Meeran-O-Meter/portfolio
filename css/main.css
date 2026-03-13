@@ -288,3 +288,90 @@ span{
     }
 }
 
+
+.contact-container{
+    margin-top: 10rem;
+    margin-left: 4rem;
+
+}
+
+.contact-title{
+
+    margin-top: 10rem;
+    margin-bottom: 0rem;
+    font-size: 1.2rem;
+    color: #000000;
+    width: 50%;
+}
+
+.contact-description{
+    font-size: 0.8rem;
+    margin-top: 0.7rem;
+}
+
+form{
+    background-color: #F3F1EB;
+    width: 20rem;
+    border-radius: 8px;
+    padding-top: 1rem;
+    padding-left: 1.3rem;
+    margin-top: 2.5rem;
+    padding-bottom: 0.7rem;
+}
+
+.form-title{
+    color: #000000;
+    font-size: 1.4rem;
+    text-align: center;
+    margin: 1rem;
+}
+
+label{
+    color: #969696;
+    font-size: 0.7rem;
+    margin-bottom: 0rem;
+}
+
+.form-group{
+    margin-bottom: 0.4rem
+}
+.form-input{
+    margin: 0;
+    background-color: #FFFFFF;
+    color: #B3ABA9;
+    font-size: 0.52rem;
+    width: 60%;
+    height: 1.2rem;
+    border-radius: 8px;
+    border-color: #D9D9D9;
+    border: solid 1px;
+    padding-left: 0.3rem;
+}
+
+.details{
+    margin: 0;
+    background-color: #FFFFFF;
+    font-size: 0.52rem;
+    width: 60%;
+    height: 1.2rem;
+    border-radius: 8px;
+    border-color: #D9D9D9;
+    border: solid 1px;
+    padding-left: 0.3rem;
+    height: 7rem;
+
+    details::placeholder{
+        color: #B3ABA9;
+    }
+}
+.send-the-mail{
+    width: 15rem;
+    border: none;
+    background-color: #FABD3E;
+    padding: 0.3rem 2rem;
+    border-radius: 8px;
+    justify-content: center;
+    display: block;
+    margin: 1rem auto 0 auto;
+    
+}
