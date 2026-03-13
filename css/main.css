@@ -272,7 +272,7 @@ span{
     }
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1100px) {
     #navbar{
         display: none;
     }
@@ -393,4 +393,23 @@ label{
     align-content: center;
     margin-right: 2rem;
     margin-left: 2rem;
+}
+
+.title{
+    font-size: 1.6rem;
+    color: #000000;
+    text-align: left;
+    margin-left: 2rem;
+    margin-top: 8rem;
+}
+
+.description{
+    font-size: 0.8rem;
+    margin-left: 2rem;
+    margin-top: 0.4rem;
+    width: 40%;
+}
+
+.mobile{
+    display: none;
 }

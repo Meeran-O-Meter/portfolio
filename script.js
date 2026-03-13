@@ -26,3 +26,12 @@ document.addEventListener("DOMContentLoaded", () => {
 
     sections.forEach(section => observer.observe(section));
 });
+
+function checkScreenSize() {
+    if (window.innerWidth < 1000) {
+        alert(">Hey! This site is currently set up only for desktop, so please change your mobile settings or preferably use a desktop device! Thanks :)")
+    }
+}
+
+checkScreenSize();
+window.addEventListener("resize", checkScreenSize);
